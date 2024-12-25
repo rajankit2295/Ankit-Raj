@@ -215,7 +215,7 @@ reference_text = """
 pdf.multi_cell(0, 10, txt=reference_text)
 
 #save the pdf to a file
-pdf_output_path = "E:\Ankitt\student.pdf"
+pdf_output_path = r"E:\Ankitt\student.pdf"
 pdf.output(pdf_output_path)
 
 pdf_output_path
